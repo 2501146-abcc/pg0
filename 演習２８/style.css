@@ -1,0 +1,155 @@
+body{
+    background-color: #f4f4f9;
+    margin: 0;
+}
+#menu{
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#menu a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+#menu ul{
+    list-style-type: none;
+    display: flex;
+}
+#menu a:hover{
+    background-color: chartreuse;
+}
+
+/*トップページ*/
+#main_div img{
+    position: fixed;
+    top: 80px;
+    right: 0;
+    width: 30%;
+}
+#side_div{
+    position: fixed;
+    top: 80px;
+    bottom: 30%;
+    left: 0;
+    right: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+#intro_div{
+    background-color: #c0bebd;
+    position: fixed;
+    top: 70%;
+    bottom: 0;
+    left: 0;
+    right: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+/*宮崎*/
+#miyazaki{
+    padding: 10px;
+}
+#takachiho {
+    display: flex;
+}
+#takachiho p{
+    padding-left: 10px;
+}
+#takachiho img{
+    width: 30%;
+    padding: 5px;
+}
+
+
+
+/*好きなジブリ*/
+#ziburi_div{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.ziburi{
+    background-color: #e63434;
+    color: #000000;
+    padding: 10px;
+    margin: 20px;
+    width: 30%;
+    box-sizing: border-box;
+}
+.ziburi img{
+    width: 100%;
+}
+
+
+/*好きなゲーム*/
+#gamediv{
+    display: flex;
+    justify-content: space-around;
+}
+.game_sub{
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.pergame{
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.pergame img{
+    width: 100%;
+}
+
+
+/*音楽*/
+.j_m{
+    background-color: #f57878;
+}
+.g_m{
+    background-color: #5d78e7;
+}
+#night img{
+    width: 100%;
+    height: 80%;
+}
+
+
+/*好きな食べ物*/
+#food_main{
+    display: flex;
+}
+.food{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.food img{
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.food_intro img{
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
